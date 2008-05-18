@@ -11,6 +11,7 @@ URL:		http://www.wimol.org/
 BuildRequires:	nant
 BuildRequires:	mono-csharp
 BuildRequires:	pkgconfig
+Requires:	mono >= 1.1.10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
